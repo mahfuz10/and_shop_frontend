@@ -27,7 +27,7 @@ class App extends React.Component {
                   token: null
         }
 
-        backend_url = 'http://localhost:3000'
+        backend_url = 'https://andshop-backend.herokuapp.com'
 
 
         setUser= (user, token) =>{
