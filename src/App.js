@@ -134,7 +134,8 @@ class App extends React.Component {
 
 
       <BrowserRouter>
-        {this.state.token ? <Redirect to="/home" /> : <Redirect to="/signin"/>}
+        // {this.state.token ? <Redirect to="/home" /> : <Redirect to="/signin"/>}
+        <Redirect to="/home" />
 
         <Switch>                      
               <Route exact path={"/home"} activeClassName="active">
